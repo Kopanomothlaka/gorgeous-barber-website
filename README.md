@@ -16,7 +16,7 @@
     <h2>🌟 Live Booking Link</h2>
     <p>Customers can book appointments here:</p>
     <p>
-        🔗 <a href="https://kouziinfo.setmore.com/" target="_blank">
+        🔗 <a href="https://gorgeousbarber.netlify.app/" target="_blank">
         https://kouziinfo.setmore.com/
         </a>
     </p>
