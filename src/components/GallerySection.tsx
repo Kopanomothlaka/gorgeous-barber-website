@@ -17,6 +17,16 @@ import gallery12 from "@/assets/gallery-12.jpg";
 import gallery13 from "@/assets/gallery-13.jpg";
 import gallery14 from "@/assets/gallery-14.jpg";
 import gallery15 from "@/assets/gallery-15.jpg";
+import gallery16 from "@/assets/gallery-16.jpg";
+import gallery17 from "@/assets/gallery-17.jpg";
+import gallery18 from "@/assets/gallery-18.jpg";
+import gallery19 from "@/assets/gallery-19.jpg";
+import gallery20 from "@/assets/gallery-20.jpg";
+import gallery21 from "@/assets/gallery-21.jpg";
+import gallery22 from "@/assets/gallery-22.jpg";
+import gallery23 from "@/assets/gallery-23.jpg";
+import gallery24 from "@/assets/gallery-24.jpg";
+import gallery25 from "@/assets/gallery-25.jpg";
 
 const images = [
   { src: gallery1, alt: "Fade haircut in progress" },
@@ -34,6 +44,16 @@ const images = [
   { src: gallery13, alt: "Luxury barber chair" },
   { src: gallery14, alt: "Buzz cut in progress" },
   { src: gallery15, alt: "Slicked back undercut" },
+  { src: gallery16, alt: "Fresh low fade cut" },
+  { src: gallery17, alt: "Clean buzz cut style" },
+  { src: gallery18, alt: "Waves haircut" },
+  { src: gallery19, alt: "Sharp line-up fade" },
+  { src: gallery20, alt: "Textured top fade" },
+  { src: gallery21, alt: "Dreadlocks with fade" },
+  { src: gallery22, alt: "Low fade haircut" },
+  { src: gallery23, alt: "Happy client fresh cut" },
+  { src: gallery24, alt: "High top fade" },
+  { src: gallery25, alt: "Curly top with lineup" },
 ];
 
 const GallerySection = () => {
