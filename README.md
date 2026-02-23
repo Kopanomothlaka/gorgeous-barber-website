@@ -1,73 +1,53 @@
-# Welcome to your Lovable project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Gorgeous Barber – Official Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: auto; padding: 20px;">
+    <h1>💈 The Gorgeous Barber – Official Website</h1>
+    <p>
+        A modern, premium, and fully responsive barber shop website designed for The Gorgeous Barber.
+    </p>
+    <p>
+        This website allows customers to view services, explore the gallery, and book appointments directly through Setmore.
+    </p>
+    <h2>🌟 Live Booking Link</h2>
+    <p>Customers can book appointments here:</p>
+    <p>
+        🔗 <a href="https://kouziinfo.setmore.com/" target="_blank">
+        https://kouziinfo.setmore.com/
+        </a>
+    </p>
+    <h2>✨ Features</h2>
+    <ul>
+        <li>🎨 Premium & modern UI design</li>
+        <li>📱 Fully responsive (mobile-first design)</li>
+        <li>🖼️ Gallery section with 15 haircut images</li>
+        <li>🔎 Click-to-enlarge image preview (lightbox effect)</li>
+        <li>💇 Services section with clean service cards</li>
+        <li>📅 Direct booking integration (Setmore)</li>
+        <li>📍 Contact section with social media links</li>
+        <li>⚡ Smooth scrolling & subtle animations</li>
+        <li>🚀 Fast loading & optimized layout</li>
+    </ul>
+    <h2>🖥️ Screenshots</h2>
+    <h3>Home Page</h3>
+    <img width="1916" height="975" alt="Home Page"
+        src="https://github.com/user-attachments/assets/94ca4a56-00b1-4495-a9d5-7ecebc69b01d" />
+    <h3>Services Section</h3>
+    <img width="1906" height="968" alt="Services"
+        src="https://github.com/user-attachments/assets/9eb396bd-5bb4-4d40-a882-6f4bd0c922a3" />
+    <h3>Gallery Section</h3>
+    <img width="1909" height="965" alt="Gallery"
+        src="https://github.com/user-attachments/assets/f904a646-f6aa-4403-8677-4602463ef1a5" />
+    <h3>Booking Section</h3>
+    <img width="1907" height="963" alt="Booking"
+        src="https://github.com/user-attachments/assets/67e7c08f-5bfb-4275-be79-9cb4a3e7de6a" />
+    <h3>Contact Section</h3>
+    <img width="1902" height="969" alt="Contact"
+        src="https://github.com/user-attachments/assets/f1b1367a-40f4-4f4b-bbc3-44d7b3f5327c" />
 
-## Project info
-
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+</body>
+</html>
