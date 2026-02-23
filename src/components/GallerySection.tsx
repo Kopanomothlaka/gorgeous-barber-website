@@ -2,21 +2,6 @@ import { useState, useRef } from "react";
 import { motion, useInView, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
-import gallery5 from "@/assets/gallery-5.jpg";
-import gallery6 from "@/assets/gallery-6.jpg";
-import gallery7 from "@/assets/gallery-7.jpg";
-import gallery8 from "@/assets/gallery-8.jpg";
-import gallery9 from "@/assets/gallery-9.jpg";
-import gallery10 from "@/assets/gallery-10.jpg";
-import gallery11 from "@/assets/gallery-11.jpg";
-import gallery12 from "@/assets/gallery-12.jpg";
-import gallery13 from "@/assets/gallery-13.jpg";
-import gallery14 from "@/assets/gallery-14.jpg";
-import gallery15 from "@/assets/gallery-15.jpg";
 import gallery16 from "@/assets/gallery-16.jpg";
 import gallery17 from "@/assets/gallery-17.jpg";
 import gallery18 from "@/assets/gallery-18.jpg";
@@ -27,23 +12,17 @@ import gallery22 from "@/assets/gallery-22.jpg";
 import gallery23 from "@/assets/gallery-23.jpg";
 import gallery24 from "@/assets/gallery-24.jpg";
 import gallery25 from "@/assets/gallery-25.jpg";
+import gallery26 from "@/assets/gallery-26.jpg";
+import gallery27 from "@/assets/gallery-27.jpg";
+import gallery28 from "@/assets/gallery-28.jpg";
+import gallery29 from "@/assets/gallery-29.jpg";
+import gallery30 from "@/assets/gallery-30.jpg";
+import gallery31 from "@/assets/gallery-31.jpg";
+import gallery32 from "@/assets/gallery-32.jpg";
+import gallery33 from "@/assets/gallery-33.jpg";
+import gallery34 from "@/assets/gallery-34.jpg";
 
 const images = [
-  { src: gallery1, alt: "Fade haircut in progress" },
-  { src: gallery2, alt: "Textured crop hairstyle" },
-  { src: gallery3, alt: "Perfectly trimmed beard" },
-  { src: gallery4, alt: "Kids haircut" },
-  { src: gallery5, alt: "Skin fade result" },
-  { src: gallery6, alt: "Hot towel grooming treatment" },
-  { src: gallery7, alt: "Classic pompadour style" },
-  { src: gallery8, alt: "Premium barber tools" },
-  { src: gallery9, alt: "Clean taper fade" },
-  { src: gallery10, alt: "Curly top fade" },
-  { src: gallery11, alt: "Beard shaping with razor" },
-  { src: gallery12, alt: "Modern quiff hairstyle" },
-  { src: gallery13, alt: "Luxury barber chair" },
-  { src: gallery14, alt: "Buzz cut in progress" },
-  { src: gallery15, alt: "Slicked back undercut" },
   { src: gallery16, alt: "Fresh low fade cut" },
   { src: gallery17, alt: "Clean buzz cut style" },
   { src: gallery18, alt: "Waves haircut" },
@@ -54,6 +33,15 @@ const images = [
   { src: gallery23, alt: "Happy client fresh cut" },
   { src: gallery24, alt: "High top fade" },
   { src: gallery25, alt: "Curly top with lineup" },
+  { src: gallery26, alt: "Curly top fade style" },
+  { src: gallery27, alt: "Clean fade at the shop" },
+  { src: gallery28, alt: "Barber and client vibes" },
+  { src: gallery29, alt: "Curly top grooming session" },
+  { src: gallery30, alt: "Happy client after cut" },
+  { src: gallery31, alt: "Cornrows with beard lineup" },
+  { src: gallery32, alt: "Afro taper from behind" },
+  { src: gallery33, alt: "Barber with client smiling" },
+  { src: gallery34, alt: "Grooming in progress" },
 ];
 
 const GallerySection = () => {
